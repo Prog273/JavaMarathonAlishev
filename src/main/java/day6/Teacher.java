@@ -25,9 +25,8 @@ public class Teacher {
             case 4:
                 mark1 = "хорошо";
                 break;
-            case 5:
+            default:
                 mark1 = "отлично";
-                break;
         }
 
         System.out.println("Преподаватель " + this.name + " оценил студента с именем "

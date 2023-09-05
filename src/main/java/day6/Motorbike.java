@@ -5,6 +5,12 @@ public class Motorbike {
     private String colour;
     private int yearOfProd;
 
+    public Motorbike(String model, String colour, int yearOfProd) {
+        this.model = model;
+        this.colour = colour;
+        this.yearOfProd = yearOfProd;
+    }
+
     void info() {
         System.out.println("Это мотоцикл");
     }
@@ -13,17 +19,14 @@ public class Motorbike {
         return (Math.abs(inputYear - yearOfProd));
     }
 
-    public Motorbike(String model, String colour, int yearOfProd) {
-        this.model = model;
-        this.colour = colour;
-        this.yearOfProd = yearOfProd;
-    }
     public String getModel() {
         return model;
     }
+
     public String getColour() {
         return colour;
     }
+
     public int getYearOfProd() {
         return yearOfProd;
     }
